@@ -1,0 +1,10 @@
+20250710	11:56:32	4538254c-8b3d-43c6-b7e9-f492336b43ff	GET	undefined	/
+20250710	11:56:32	db56a74b-c7ec-4239-b445-bf60f532c57e	GET	undefined	/css/style.css
+20250710	11:56:32	bfe09db5-5a6b-49f8-aeff-ec5a2cd3a94f	GET	undefined	/favicon.ico
+20250710	11:57:03	f950b9d2-1c87-4280-a4d0-3ea6be47691f	GET	undefined	/employees
+20250710	11:57:55	e5178554-5f1f-48cf-9816-213d700bc11b	POST	undefined	/employees
+20250710	11:58:49	a8b7edce-010c-4fa6-b313-9dc58263f0f5	POST	undefined	/employees
+20250710	12:00:46	c9358268-a868-4055-bbec-cf206c28631c	PUT	undefined	/employees
+20250710	12:01:03	a9016030-6e4f-45f8-a6b6-54c7f5b97406	PUT	undefined	/employees
+20250710	12:01:50	b16adf1c-cbb0-4e97-8c6e-0611565387e8	DELETE	undefined	/employees
+20250710	13:16:02	5bb9e3f8-1a88-461e-89f8-4f89f95d4227	GET	undefined	/employees/1

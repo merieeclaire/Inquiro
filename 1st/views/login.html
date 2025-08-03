@@ -1,0 +1,35 @@
+<!-- Save this as public/login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+</head>
+<body>
+  <h1>Login</h1>
+  <form id="loginForm">
+    <label>Username: <input type="text" name="user" /></label><br />
+    <label>Password: <input type="password" name="pwd" /></label><br />
+    <button type="submit">Login</button>
+  </form>
+
+  <script>
+    const form = document.getElementById('loginForm');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const data = {
+        user: form.user.value,
+        pwd: form.pwd.value
+      };
+      const res = await fetch('/auth', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include', // IMPORTANT for cookies
+        body: JSON.stringify(data)
+      });
+      const result = await res.json();
+      alert(JSON.stringify(result));
+    });
+  </script>
+</body>
+</html>

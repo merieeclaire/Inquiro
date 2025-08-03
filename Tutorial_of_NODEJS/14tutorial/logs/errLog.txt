@@ -1,0 +1,6 @@
+20250710	16:50:31	41dadeee-316a-4c4a-9952-2a16e7b63473	SyntaxError: Unexpected token 'e', "#" is not valid JSON
+20250711	14:55:22	1209bcd8-bcbe-4ad4-99ec-5b89c43e5682	TypeError: Cannot read properties of undefined (reading 'username')
+20250711	14:55:54	f924eed4-5570-470f-83b4-3fa14e4566ad	TypeError: Cannot read properties of undefined (reading 'username')
+20250711	14:56:56	058a811f-20e1-4ab2-8526-dd3e4e4bbc51	TypeError: Cannot read properties of undefined (reading 'username')
+20250712	15:25:24	4bc5c3d2-5399-4223-b687-465b87392276	SyntaxError: Expected ',' or '}' after property value in JSON at position 11 (line 1 column 12)
+20250712	15:25:29	f402b510-5050-46d3-9645-267d6b3091bc	SyntaxError: Expected ',' or '}' after property value in JSON at position 11 (line 1 column 12)
